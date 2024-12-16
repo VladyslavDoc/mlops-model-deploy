@@ -33,7 +33,7 @@ Parameters:
     Description: The ML compute instance type for the endpoint.
 
 Conditions:
-  IsProdStage: !Equals [!Ref StageName, Prod]
+  IsProdStage: !Equals [!Ref StageName, prod-0306]
 
 Resources:
   Model:
